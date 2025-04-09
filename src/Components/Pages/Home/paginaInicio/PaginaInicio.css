@@ -1,0 +1,83 @@
+.Container {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    height: 100vh;
+    
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .formColumn {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #f3f3f3; 
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #4CAF50;
+  }
+  
+  button.btnForm {
+    background-color: #4CAF50; 
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.btnForm:hover {
+    background-color: #45a049; 
+  }
+  
+  .texto {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .btnswicth {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .btnswicth:hover {
+    text-decoration: none;
+  }
+  

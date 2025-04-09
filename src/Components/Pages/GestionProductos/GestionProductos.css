@@ -1,0 +1,119 @@
+
+
+  .textoNombreProducto{
+      color: blue;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; 
+    color: #333; 
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1, h2 {
+    color: #0abb86; 
+  }
+
+  ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+
+  li {
+    background-color: #ffffff; 
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+
+  button {
+    background-color: #4a90e2; 
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  button:hover {
+    background-color: #357abd; 
+  }
+
+  input, select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+
+  form {
+    margin-bottom: 20px;
+  }
+
+  
+  .tienda-section {
+      background-color: #e3f2fd; 
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    
+   
+    .categorias-section {
+      background-color: #f0f4c3; 
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    
+    
+    .productos-section {
+      background-color: #fff3e0; 
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    
+    
+    .acciones-botones {
+      display: flex;
+      gap: 10px;
+    }
+    .total-section {
+      background-color: #f8bbd0; 
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    
+    .total-section h2 {
+      color: #c2185b; /
+    }
+    
+    .total-section p {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .filtros-section {
+      background-color: #e1f5fe;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .filtros-section input,
+    .filtros-section select {
+      margin-right: 10px;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    
+    
