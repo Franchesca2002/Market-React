@@ -19,7 +19,6 @@
   },
   "devDependencies": {
     "rollup": "^x.x.x",
-    "rollup-plugin-x": "^x.x.x",
     "@eslint/js": "^9.21.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
