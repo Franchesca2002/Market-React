@@ -8,7 +8,7 @@ import {
   signInWithPopup
 } from 'firebase/auth';
 import { auth } from '../../../../Configuracion';
-import '../paginaInicio/paginaInicio.css';
+import './paginaInicio.css';
 
 const PaginaInicio = () => {
   const [registrando, setRegistrando] = useState(false); 
